@@ -22,7 +22,8 @@
       "download-pdf",
       "claude",
       "chatgpt"
-    ]
+    ],
+    "display": "header"
   },
   "navigation": {
     "global": {
@@ -39,12 +40,103 @@
         }
       ]
     },
-    "directory": "card",
     "anchors": [
       {
         "anchor": "Changelog",
         "icon": "scroll-text",
         "href": "/changelog"
+      }
+    ],
+    "pages": [
+      {
+        "group": "Getting Started",
+        "icon": {
+          "name": "door-open",
+          "library": "lucide"
+        },
+        "pages": [
+          "getting-started/creating-your-account",
+          "getting-started/signing-in",
+          "getting-started/verifying-your-email-and-finishing-your-profile",
+          "getting-started/resetting-a-forgotten-password",
+          "getting-started/starting-your-wedding-plan"
+        ]
+      },
+      {
+        "group": "Your Account",
+        "icon": {
+          "name": "user-round",
+          "library": "lucide"
+        },
+        "pages": [
+          "your-account/profile-and-language",
+          "your-account/password-and-security",
+          "your-account/notification-preferences",
+          "your-account/privacy-data-and-deleting-your-account"
+        ]
+      },
+      {
+        "group": "Planning Your Wedding",
+        "icon": {
+          "name": "heart",
+          "library": "lucide"
+        },
+        "pages": [
+          "planning/overview",
+          "planning/messages",
+          "planning/inspiration-board",
+          "planning/tasks-and-checklist",
+          "planning/budget-and-expenses",
+          "planning/calculator",
+          "planning/schedule-and-timeline",
+          "planning/file-storage",
+          "planning/wedding-settings-plan-and-billing"
+        ]
+      },
+      {
+        "group": "Setting Up Your Guest Experience",
+        "icon": {
+          "name": "users-round",
+          "library": "lucide"
+        },
+        "pages": [
+          "guest-experience/overview",
+          "guest-experience/building-your-guest-list",
+          "guest-experience/wedding-website",
+          "guest-experience/digital-invitation",
+          "guest-experience/questionnaire",
+          "guest-experience/media-uploads",
+          "guest-experience/announcements",
+          "guest-experience/guest-feed",
+          "guest-experience/seating-chart"
+        ]
+      },
+      {
+        "group": "For Your Guests",
+        "icon": {
+          "name": "mail-heart",
+          "library": "lucide"
+        },
+        "pages": [
+          "for-your-guests/finding-your-invitation",
+          "for-your-guests/responding-to-the-questionnaire",
+          "for-your-guests/viewing-the-wedding-website",
+          "for-your-guests/sharing-your-photos-and-videos",
+          "for-your-guests/arranging-a-carpool",
+          "for-your-guests/suggesting-songs",
+          "for-your-guests/posting-to-the-feed"
+        ]
+      },
+      {
+        "group": "About These Docs",
+        "icon": {
+          "name": "pencil-line",
+          "library": "lucide"
+        },
+        "hidden": true,
+        "pages": [
+          "about-these-docs/how-we-write-these-guides"
+        ]
       }
     ]
   },
