@@ -37,23 +37,18 @@
           "anchor": "Contact us",
           "icon": "life-buoy",
           "href": "mailto:support@meandyou.wedding"
+        },
+        {
+          "anchor": "Changelog",
+          "icon": "scroll-text",
+          "href": "/changelog"
         }
       ]
     },
-    "anchors": [
-      {
-        "anchor": "Changelog",
-        "icon": "scroll-text",
-        "href": "/changelog"
-      }
-    ],
-    "pages": [
+    "groups": [
       {
         "group": "Getting Started",
-        "icon": {
-          "name": "door-open",
-          "library": "lucide"
-        },
+        "icon": "door-open",
         "pages": [
           "getting-started/creating-your-account",
           "getting-started/signing-in",
@@ -64,10 +59,7 @@
       },
       {
         "group": "Your Account",
-        "icon": {
-          "name": "user-round",
-          "library": "lucide"
-        },
+        "icon": "user-round",
         "pages": [
           "your-account/profile-and-language",
           "your-account/password-and-security",
@@ -77,10 +69,7 @@
       },
       {
         "group": "Planning Your Wedding",
-        "icon": {
-          "name": "heart",
-          "library": "lucide"
-        },
+        "icon": "heart",
         "pages": [
           "planning/overview",
           "planning/messages",
@@ -95,10 +84,7 @@
       },
       {
         "group": "Setting Up Your Guest Experience",
-        "icon": {
-          "name": "users-round",
-          "library": "lucide"
-        },
+        "icon": "users-round",
         "pages": [
           "guest-experience/overview",
           "guest-experience/building-your-guest-list",
@@ -113,10 +99,7 @@
       },
       {
         "group": "For Your Guests",
-        "icon": {
-          "name": "mail-heart",
-          "library": "lucide"
-        },
+        "icon": "mail-heart",
         "pages": [
           "for-your-guests/finding-your-invitation",
           "for-your-guests/responding-to-the-questionnaire",
@@ -129,10 +112,7 @@
       },
       {
         "group": "About These Docs",
-        "icon": {
-          "name": "pencil-line",
-          "library": "lucide"
-        },
+        "icon": "pencil-line",
         "hidden": true,
         "pages": [
           "about-these-docs/how-we-write-these-guides"
