@@ -1,0 +1,67 @@
+---
+title: "me&you Help Center"
+description: "Plain-language guides for planning your wedding with me&you."
+hidden: true
+---
+
+<div className="flex w-full flex-col gap-8 max-w-5xl mx-auto px-4 md:px-8 lg:px-12 py-10 lg:gap-14 lg:py-16">
+  <div className="flex max-w-[560px] flex-col gap-2 self-center text-center">
+    <h1 className="text-[30px] font-medium leading-9 tracking-tight text-gray-900 dark:text-gray-50">
+      How can we help?
+    </h1>
+
+    <p className="text-balance text-base leading-relaxed tracking-tight text-gray-600 dark:text-gray-400">
+      Everything you need to plan your wedding with me\&you — from setting up your account to building your guest list, your wedding website, and collecting RSVPs.
+    </p>
+  </div>
+
+  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+    <Card title="Getting started" icon="door-open" href="/getting-started/creating-your-account">
+      Create your account and start your wedding plan.
+    </Card>
+
+    <Card title="Your account" icon="user-round" href="/your-account/profile-and-language">
+      Manage your profile, password, notifications, and privacy.
+    </Card>
+
+    <Card title="Planning your wedding" icon="heart" href="/planning/overview">
+      Tasks, budget, schedule, and everything else in your planning dashboard.
+    </Card>
+
+    <Card title="Setting up your guest experience" icon="users-round" href="/guest-experience/overview">
+      Your guest list, wedding website, invitation, RSVPs, and more.
+    </Card>
+
+    <Card title="For your guests" icon="mail" href="/for-your-guests/finding-your-invitation">
+      Share these guides with your guests if they get stuck.
+    </Card>
+
+    <Card title="About these docs" icon="pencil-line" href="/about-these-docs/how-we-write-these-guides">
+      How this help center is organized, written, and kept up to date.
+    </Card>
+  </div>
+
+  <hr className="border-0 border-t border-border" />
+
+  <div className="flex flex-col gap-4">
+    <h2 className="font-serif text-xl font-medium leading-normal text-gray-900 dark:text-gray-50">Popular guides</h2>
+
+    <CardGroup cols={2}>
+      <Card title="Starting your wedding plan" icon="rocket" href="/getting-started/starting-your-wedding-plan">
+        Create your first wedding and start your free 30-day trial.
+      </Card>
+
+      <Card title="Setting up your wedding website" icon="globe" href="/guest-experience/wedding-website">
+        Turn on your site, pick a look, and share it with guests.
+      </Card>
+
+      <Card title="Collecting RSVPs" icon="clipboard-check" href="/guest-experience/questionnaire">
+        Build your questionnaire and send invites to your guests.
+      </Card>
+
+      <Card title="A guide for your guests" icon="heart-handshake" href="/for-your-guests/responding-to-the-questionnaire">
+        Share this if a guest isn't sure how to RSVP.
+      </Card>
+    </CardGroup>
+  </div>
+</div>

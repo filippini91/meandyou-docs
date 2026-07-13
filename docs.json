@@ -1,0 +1,77 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "me&you Help Center",
+  "description": "Plain-language guides for planning your wedding with me&you — from creating your account to building your guest list, wedding website, and RSVPs.",
+  "colors": {
+    "primary": "#9D2A39",
+    "light": "#D95A61",
+    "dark": "#8A2737"
+  },
+  "favicon": "/favicon.ico",
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "assistant",
+      "download-pdf",
+      "claude",
+      "chatgpt"
+    ]
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Home",
+          "icon": "house",
+          "href": "/"
+        },
+        {
+          "anchor": "Contact us",
+          "icon": "life-buoy",
+          "href": "mailto:support@meandyou.wedding"
+        }
+      ]
+    },
+    "directory": "card",
+    "anchors": [
+      {
+        "anchor": "Changelog",
+        "icon": "scroll-text",
+        "href": "/changelog"
+      }
+    ]
+  },
+  "logo": {
+    "light": "/images/light.svg",
+    "dark": "/images/dark.svg"
+  },
+  "navbar": {
+    "links": [],
+    "primary": {
+      "type": "button",
+      "label": "Open me&you",
+      "href": "https://meandyou.wedding/plan"
+    }
+  },
+  "footer": {
+    "socials": {
+      "instagram": "https://instagram.com/meandyou.wedding"
+    }
+  },
+  "background": {
+    "color": {
+      "light": "#FAFAF9",
+      "dark": "#1C1917"
+    }
+  },
+  "fonts": {
+    "family": "Geist"
+  }
+}

@@ -1,0 +1,91 @@
+---
+title: "How we write these guides"
+sidebarTitle: "How we write these guides"
+description: "The persona, structure, tone, and maintenance conventions behind the me&you Help Center — read this before adding or editing a page."
+hidden: true
+---
+
+## Who these docs are for
+
+The main reader is an **engaged couple** planning their own wedding. Most have never used a wedding-planning app before, so we write in plain language: short sentences, no jargon, no internal product or database terms.
+
+A secondary reader is a **wedding guest** who lands on a page under **For Your Guests**, usually from a link in an email or from the couple directly. Those pages are shorter and assume even less context.
+
+<Tip>
+  If you're not sure whether something is "too technical," read it out loud. If it sounds like an engineer wrote it, simplify it.
+</Tip>
+
+## How the site is organized
+
+<CardGroup cols={2}>
+  <Card title="Getting Started" icon="door-open" href="/getting-started/creating-your-account">
+    Creating an account, signing in, verifying your email, starting a wedding plan.
+  </Card>
+
+  <Card title="Your Account" icon="user-round" href="/your-account/profile-and-language">
+    Mirrors the four Account Settings tabs in the app: profile, security, notifications, privacy.
+  </Card>
+
+  <Card title="Planning Your Wedding" icon="heart" href="/planning/overview">
+    The dashboard's everyday planning tools — tasks, budget, schedule, and more.
+  </Card>
+
+  <Card title="Setting Up Your Guest Experience" icon="users-round" href="/guest-experience/overview">
+    Everything the couple configures for guests: website, invitation, RSVPs, seating.
+  </Card>
+
+  <Card title="For Your Guests" icon="mail-heart" href="/for-your-guests/finding-your-invitation">
+    Short, guest-readable guides. Link a guest here directly if they're stuck.
+  </Card>
+
+  <Card title="About These Docs" icon="pencil-line" href="/about-these-docs/how-we-write-these-guides">
+    This page — how to keep writing in the same voice.
+  </Card>
+</CardGroup>
+
+Each group maps to a real part of the product. When a feature changes in the app, its matching page should change in the same pass — treat this the same way the team treats keeping `messages/en.json` translations in sync with new UI strings.
+
+## Writing conventions
+
+- **Second person, active voice, present tense.** Sentence case for headings ("Getting started", not "Getting Started").
+- **No manual H1.** The page title comes from the `title` frontmatter field; the body starts at `##`.
+- **One task per page.** If a page is trying to explain two unrelated things, split it.
+- **Plain terms, not internal ones.** Say "your wedding", not "event". Say "your invitation link", not "RSVP token". Say "co-planner" for an invited partner/helper (that matches the in-app wording).
+- **Every page needs frontmatter**: `title`, `sidebarTitle`, `description`.
+- **Use structure, not walls of text**: `<Steps>` for sequences, `<Note>` / `<Tip>` / `<Warning>` for callouts, `<Card>` / `<CardGroup>` to link related pages.
+- **Flag paid features.** Any feature that requires a paid plan after the trial ends gets a short `<Note>` near the top of the page, e.g. "This feature is available on paid plans after your trial ends."
+- **Link internally with root-relative paths** (`/guest-experience/questionnaire`), never a full URL.
+
+## Adding screenshots (Figma) and videos (Screen Studio)
+
+We write the words first and leave clearly labeled placeholders for visuals, so screenshots and recordings can be produced independently and dropped in later without touching the surrounding text.
+
+**Screenshot placeholder:**
+
+```mdx
+<Frame>
+  <img src="/images/<section>/<page-slug>-01.png" alt="Describe exactly what the screenshot shows" />
+</Frame>
+{/* TODO(screenshot): describe the exact screen/state to capture, e.g. "Questionnaire editor with 3 sample questions added" */}
+```
+
+**Video placeholder:**
+
+```mdx
+{/* TODO(video): 20-40s clip showing: <action sequence>. Suggested filename: <section>/<page-slug>.mp4 */}
+<video controls className="w-full aspect-video rounded-xl" src="/videos/<section>/<page-slug>.mp4" />
+```
+
+When the real asset is ready, just swap the `src` — the alt text and TODO comment already describe what needs to be captured, so no rewriting is needed.
+
+<Warning>
+  Crop screenshots tightly to the feature being discussed. Full-page captures (including sidebar, header, and unrelated UI) go out of date the moment the app's chrome changes.
+</Warning>
+
+## Keeping this in sync
+
+This page has a twin: `.cursor/rules/user-docs-standards.mdc` in the main app repository, used by AI agents and engineers working in the codebase who add or change a doc page from within Cursor. If you update one, update the other in the same change.
+
+## Locale scope
+
+English only for now. The site is i18n-ready, and translating into French, German, Spanish, and Italian is planned as a deliberate follow-up phase once the English content is stable — not something to do piecemeal alongside new pages.
