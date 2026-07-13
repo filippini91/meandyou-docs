@@ -61,10 +61,10 @@
         "group": "Your Account",
         "icon": "user-round",
         "pages": [
-          "your-account/profile-and-language",
-          "your-account/password-and-security",
+          "your-account/profile",
+          "your-account/security",
           "your-account/notification-preferences",
-          "your-account/privacy-data-and-deleting-your-account"
+          "your-account/privacy"
         ]
       },
       {
