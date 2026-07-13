@@ -50,8 +50,8 @@
         "group": "Getting Started",
         "icon": "door-open",
         "pages": [
-          "getting-started/creating-your-account",
           "getting-started/signing-in",
+          "getting-started/creating-your-account",
           "getting-started/verifying-your-email-and-finishing-your-profile",
           "getting-started/resetting-a-forgotten-password",
           "getting-started/starting-your-wedding-plan"
