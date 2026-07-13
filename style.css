@@ -148,13 +148,8 @@ img.nav-logo {
   height: auto;
 }
 
-[data-component-part='step-number'] > div {
+[data-component-part="step-number"] > div {
   background-color: rgb(var(--primary)) !important;
-  color: white !important;
-  border-radius: 0.5rem !important; /* rounded-lg instead of fully round */
-}
-
-.dark [data-component-part='step-number'] > div {
-  background-color: rgb(var(--primary-light) / var(--tw-text-opacity, 1)) !important;
-  color: white !important;
+  color: #ffffff !important;
+  border-radius: 0.5rem !important;
 }
