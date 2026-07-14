@@ -83,7 +83,7 @@
         ]
       },
       {
-        "group": "Setting Up Your Guest Experience",
+        "group": "Guest management",
         "icon": "users-round",
         "pages": [
           "guest-experience/overview",
