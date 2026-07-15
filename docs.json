@@ -48,7 +48,6 @@
     "groups": [
       {
         "group": "Getting Started",
-        "icon": "door-open",
         "pages": [
           "getting-started/signing-in",
           "getting-started/creating-your-account",
@@ -59,7 +58,6 @@
       },
       {
         "group": "Your Account",
-        "icon": "user-round",
         "pages": [
           "your-account/profile",
           "your-account/security",
@@ -69,7 +67,6 @@
       },
       {
         "group": "Planning Your Wedding",
-        "icon": "heart",
         "pages": [
           "planning/overview",
           "planning/messages",
