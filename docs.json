@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
   "name": "me&you Help Center",
-  "description": "Plain-language guides for planning your wedding with me&you — from creating your account to building your guest list, wedding website, and RSVPs.",
+  "description": "Guides for planning your wedding with me&you — from creating your account to building your guest list, wedding website, and RSVPs.",
   "colors": {
     "primary": "#9D2A39",
     "light": "#D95A61",
