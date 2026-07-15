@@ -9,8 +9,8 @@
     "dark": "#8A2737"
   },
   "favicon": {
-    "light": "/images/icon.png",
-    "dark": "/images/icon.png"
+    "light": "/images/meandyou_logomark.svg",
+    "dark": "/images/meandyou_logomark.svg"
   },
   "icons": {
     "library": "lucide"
