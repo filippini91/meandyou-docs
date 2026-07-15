@@ -84,7 +84,6 @@
       },
       {
         "group": "Guest management",
-        "icon": "users-round",
         "pages": [
           "guest-experience/overview",
           "guest-experience/building-your-guest-list",
