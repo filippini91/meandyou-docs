@@ -122,6 +122,7 @@
           "planners/activity",
           "planners/clients",
           "planners/client-details",
+          "planners/working-inside-a-clients-wedding",
           "planners/templates",
           "planners/vendors",
           "planners/workspace-settings"
