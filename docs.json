@@ -110,6 +110,26 @@
         ]
       },
       {
+        "group": "For Planners",
+        "icon": "briefcase",
+        "pages": [
+          "planners/overview",
+          "planners/creating-your-workspace",
+          "planners/joining-a-workspace",
+          "planners/home",
+          "planners/messages",
+          "planners/tasks",
+          "planners/activity",
+          "planners/clients",
+          "planners/client-details",
+          "planners/working-inside-a-clients-wedding",
+          "planners/templates",
+          "planners/vendors",
+          "planners/workspace-settings",
+          "planners/ai-assistant"
+        ]
+      },
+      {
         "group": "About These Docs",
         "icon": "pencil-line",
         "hidden": true,

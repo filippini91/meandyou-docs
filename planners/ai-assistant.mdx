@@ -1,0 +1,93 @@
+---
+title: "How the AI assistant works"
+sidebarTitle: "AI assistant"
+description: "What the planner workspace AI assistant can do, how it's powered and billed, how approvals work, and what it won't do for you."
+icon: "sparkles"
+---
+
+Every me&you professional workspace includes an AI assistant that can look up information, draft messages, and make changes across your clients on your behalf — right from a chat, instead of clicking through every page yourself.
+
+## Where to find it
+
+A small launcher button sits in the bottom-right corner of every page in your workspace. Opening it slides in a chat panel where you can type what you need. On desktop you can have several conversations open in tabs at once; on mobile, one at a time. A history icon lets you search and reopen past conversations.
+
+You can also start a conversation straight from the [Home](/planners/home) page's chat box, including with a few one-tap suggested prompts like a daily or weekly summary.
+
+{/* TODO(screenshot): Planner AI assistant chat panel open, showing a conversation with a confirmation card */}
+
+## Who can use it
+
+An owner or admin needs to turn the assistant on for the workspace first, in [Workspace settings → AI assistant](/planners/workspace-settings#ai-assistant). Once it's on, owners and admins can always chat with it; whether regular members can too is a separate switch the owner or admin controls.
+
+## How it's powered and billed
+
+You can choose how the assistant's AI usage is paid for:
+
+- **Workspace AI credits** — a prepaid balance you top up from Workspace settings. Each conversation uses a small amount of credit based on actual usage.
+- **Bring your own key (BYOK)** — connect your own OpenAI or Anthropic API key instead, and the assistant uses that directly rather than drawing from your credit balance.
+
+Owners and admins manage both of these, and choose which model the assistant uses, from [Workspace settings → AI assistant](/planners/workspace-settings#ai-assistant).
+
+### Connect Claude or ChatGPT via MCP
+
+Beyond the chat panel built into me&you, you can also reach your workspace's AI tools from an external AI assistant like Claude or ChatGPT, using a technology called MCP (Model Context Protocol). MCP lets a compatible AI assistant connect to me&you and use the same tools — looking up clients, drafting messages, applying templates, and more — directly from that assistant's own chat.
+
+To set this up, an owner or admin creates a personal access token from [Workspace settings → AI assistant](/planners/workspace-settings#ai-assistant) and gives it to the external assistant along with your workspace's connection address. The token is shown once when it's created, so save it somewhere safe. You can revoke a token at any time if you no longer want that connection to work.
+
+<Note>
+  Conversations through an external assistant connected this way use that assistant's own AI usage and billing, not your workspace's AI credits.
+</Note>
+
+## What it can do
+
+The assistant can work across every area of your workspace and your clients' weddings, including:
+
+- **Clients** — look up client details, workspace activity, and your Home summary; update a wedding date or default task assignee.
+- **Messages** — read and send messages to a couple on your behalf.
+- **Tasks** — create, update, and delete tasks, one at a time or in bulk.
+- **Guests** — add, update, and remove guests, one at a time or in bulk.
+- **Email and RSVPs** — send batch emails to guests, email a couple directly, and send RSVP or invitation reminders.
+- **Guest feed** — post updates and polls to a client's guest feed.
+- **Budget** — manage categories, line items, totals, and currency.
+- **Schedule** — manage days and timeline items.
+- **Questionnaire** — update questions and turn the questionnaire on or off for guests.
+- **Calculator** — manage quantity line items.
+- **Vendors** — manage your workspace rolodex, and add or update vendors on a specific client's wedding.
+- **Templates** — create, edit, and apply message, email, task, calculator, questionnaire, and schedule templates.
+- **Exporting** — prepare a full export of your workspace's data.
+
+<Note>
+  Seating charts, guest files, inspiration boards, and song requests can be looked up by the assistant, but it can't make changes to them — those stay hands-on in the dashboard itself.
+</Note>
+
+## Answering how-to questions
+
+Beyond your own workspace data, the assistant can also search this help center to answer general "how do I..." or "where do I find..." questions about using me&you. When it answers this way, it includes a link to the relevant page — and if the help center doesn't cover your question, it'll say so rather than guess.
+
+## Approvals for sensitive actions
+
+For anything bulk, outgoing (like sending a message or email), or hard to undo (like deleting something or applying a template to a client), the assistant stops and shows you exactly what it's about to do before it does it. You'll see a confirmation card in the chat with an **Approve** and a **Cancel** button — nothing happens until you approve it, and that request expires after a few minutes if you don't respond.
+
+{/* TODO(screenshot): Confirmation card in the chat panel asking to approve a bulk task creation */}
+
+## What it won't do
+
+Some things always require a human in the dashboard rather than the assistant — for example, buying licenses or AI credits, changing your billing method, managing team members, deleting the workspace, designing the wedding website or invitation, editing the seating chart, or uploading files. If you ask the assistant to do one of these, it'll explain that it can't and point you to exactly the right page to do it yourself instead of guessing.
+
+## Language
+
+The assistant replies in whatever language you write to it in, regardless of your workspace's display language.
+
+## Tips and troubleshooting
+
+<AccordionGroup>
+  <Accordion title="The assistant says it can't find a client">
+    If you have several clients and your request doesn't name one clearly, the assistant will ask which client you mean before continuing — try naming the client or wedding explicitly.
+  </Accordion>
+  <Accordion title="I don't see the chat launcher">
+    Check that the AI assistant is turned on in [Workspace settings](/planners/workspace-settings#ai-assistant), and if you're a member (not an owner or admin), check whether member chat access has been enabled.
+  </Accordion>
+  <Accordion title="An action is stuck waiting for approval">
+    Confirmation requests expire after a short time. If you've missed it, just ask the assistant to do the same thing again.
+  </Accordion>
+</AccordionGroup>
