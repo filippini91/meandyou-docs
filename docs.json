@@ -110,6 +110,11 @@
         ]
       },
       {
+        "group": "For Planners",
+        "icon": "briefcase",
+        "pages": []
+      },
+      {
         "group": "About These Docs",
         "icon": "pencil-line",
         "hidden": true,
