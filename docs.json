@@ -120,6 +120,8 @@
           "planners/messages",
           "planners/tasks",
           "planners/activity",
+          "planners/clients",
+          "planners/client-details",
           "planners/templates",
           "planners/vendors",
           "planners/workspace-settings"
