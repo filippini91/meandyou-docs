@@ -112,7 +112,10 @@
       {
         "group": "For Planners",
         "icon": "briefcase",
-        "pages": []
+        "pages": [
+          "planners/overview",
+          "planners/creating-your-workspace"
+        ]
       },
       {
         "group": "About These Docs",
