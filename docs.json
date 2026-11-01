@@ -114,7 +114,15 @@
         "icon": "briefcase",
         "pages": [
           "planners/overview",
-          "planners/creating-your-workspace"
+          "planners/creating-your-workspace",
+          "planners/joining-a-workspace",
+          "planners/home",
+          "planners/messages",
+          "planners/tasks",
+          "planners/activity",
+          "planners/templates",
+          "planners/vendors",
+          "planners/workspace-settings"
         ]
       },
       {
